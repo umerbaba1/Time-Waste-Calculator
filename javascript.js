@@ -49,7 +49,6 @@ let form=document.getElementById("forms")
 let storedValue1;
 let storedValue2;
 form.addEventListener('submit',function(el){
-    console.log(el)
     el.preventDefault();
     document.getElementById("first").innerText=`First No:${f1.value}`
     document.getElementById("second").innerText=`Second No:${f2.value}`
